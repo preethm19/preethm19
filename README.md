@@ -1,4 +1,4 @@
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&duration=3000&pause=1000&color=539BF5&width=600&lines=Hey+there!+I'm+Preetham;Welcome+to+my+Tech+Space!" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&duration=3000&pause=1000&color=539BF5&width=500&lines=Hey+there!+I'm+Preetham;Welcome+to+my+Tech+Space!" alt="Typing SVG" />
 <p align="left">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=ADBAC7&width=160&lines=Click+Here+↘;For+My+Links+↘" alt="Typing SVG" style="vertical-align: middle;" />
   <a href="https://preethm19.github.io/">
