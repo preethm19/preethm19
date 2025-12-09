@@ -1,4 +1,8 @@
-<img src="https://raw.githubusercontent.com/preethm19/preethm19/output/snake.svg" alt="Snake animation" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/preethm19/preethm19/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/preethm19/preethm19/output/pacman-contribution-graph.svg">
+  <img alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/preethm19/preethm19/output/pacman-contribution-graph.svg">
+</picture>
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&duration=2000&pause=1000&color=539BF5&width=443&lines=Hey+there!+I'm+Preetham;Welcome+to+my+Tech+Space!" alt="Typing SVG" />
 <p align="left">
@@ -11,7 +15,7 @@
 </p>
 
 
----
+
 ![](https://github-readme-stats.vercel.app/api?username=preethm19&theme=github_dark_dimmed&hide_border=false&include_all_commits=false&count_private=true)<br/>
 ---
 ![](https://nirzak-streak-stats.vercel.app/?user=preethm19&theme=github_dark_dimmed&hide_border=false)<br/>
@@ -26,11 +30,8 @@
 [![](https://visitcount.itsvg.in/api?id=preethm19&icon=0&color=6)](https://visitcount.itsvg.in)
 
 ---
+<img src="https://raw.githubusercontent.com/preethm19/preethm19/output/snake.svg" alt="Snake animation" />
+---
 
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/preethm19/preethm19/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/preethm19/preethm19/output/pacman-contribution-graph.svg">
-  <img alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/preethm19/preethm19/output/pacman-contribution-graph.svg">
-</picture>
 
