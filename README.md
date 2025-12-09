@@ -1,3 +1,5 @@
+<img src="https://raw.githubusercontent.com/preethm19/preethm19/output/snake.svg" alt="Snake animation" />
+
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&duration=2000&pause=1000&color=539BF5&width=443&lines=Hey+there!+I'm+Preetham;Welcome+to+my+Tech+Space!" alt="Typing SVG" />
 <p align="left">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&duration=2000&pause=1000&color=ADBAC7&width=155&lines=Click+Here+↘;For+My+Links+↘" alt="Typing SVG" style="vertical-align: middle;" />
