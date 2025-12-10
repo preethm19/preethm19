@@ -1,109 +1,28 @@
-name: Generate Game SVGs
+name: generate pacman game
 
 on:
-  schedule:
-    # daily (every 24 hours) and every 12 hours for the snake job is encoded by having both cron rules
-    - cron: '0 0 * * *'      # daily at 00:00 UTC (replace if you prefer another time)
-    - cron: '0 */12 * * *'   # every 12 hours
-  workflow_dispatch:
-  push:
+  schedule: # Run automatically every 24 hours
+    - cron: "0 */24 * * *"
+  workflow_dispatch: # Allows manual triggering
+  push: # Runs on every push to the main branch
     branches:
       - main
 
-permissions:
-  contents: write   # allow pushing to branches via GH token
-
 jobs:
-  generate-pacman:
-    name: Generate Pac-Man
+  generate:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 10
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+    timeout-minutes: 5
 
-      - name: Run pacman generator
+    steps:
+      - name: generate pacman-contribution-graph.svg
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: preethm19
 
-      # make sure dist exists and move or copy the generated file there
-      - name: Prepare pacman dist
-        run: |
-          mkdir -p dist
-          # adjust source filename if action writes somewhere else; common filename assumed:
-          if [ -f "pacman-contribution-graph.svg" ]; then
-            mv pacman-contribution-graph.svg dist/pacman-contribution-graph.svg
-          elif [ -f "dist/pacman-contribution-graph.svg" ]; then
-            echo "pacman svg already in dist"
-          else
-            echo "Warning: pacman svg not found; listing files:" && ls -la
-          fi
-
-      - name: Upload pacman artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: pacman-svg
-          path: dist/pacman-contribution-graph.svg
-
-  generate-snake:
-    name: Generate Snake
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Run snake generator
-        # keep the version you used; example uses v3
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: preethm19
-          # If this action accepts an outputs path/query, include it here. If it writes
-          # to snake.svg in repo root, the next step moves it into dist.
-
-      - name: Prepare snake dist
-        run: |
-          mkdir -p dist
-          # The action may produce "snake.svg" or put it in dist; normalize it:
-          if [ -f "snake.svg" ]; then
-            mv snake.svg dist/snake.svg
-          elif [ -f "dist/snake.svg" ]; then
-            echo "snake.svg already in dist"
-          else
-            echo "Warning: snake svg not found; listing files:" && ls -la
-          fi
-
-      - name: Upload snake artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: snake-svg
-          path: dist/snake.svg
-
-  publish-output:
-    name: Publish dist/ to output branch
-    runs-on: ubuntu-latest
-    needs:
-      - generate-pacman
-      - generate-snake
-    steps:
-      - name: Download pacman artifact
-        uses: actions/download-artifact@v3
-        with:
-          name: pacman-svg
-          path: dist
-
-      - name: Download snake artifact
-        uses: actions/download-artifact@v3
-        with:
-          name: snake-svg
-          path: dist
-
-      - name: Show dist contents (debug)
-        run: ls -la dist
-
-      - name: Push dist to output branch
-        # using crazy-max/ghaction-github-pages to push the dist folder into target branch
+      # Push the generated SVG to the output branch
+      - name: push pacman-contribution-graph.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
