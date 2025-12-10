@@ -4,15 +4,45 @@
   <img alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/preethm19/preethm19/output/pacman-contribution-graph.svg">
 </picture>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&duration=2000&pause=1000&color=539BF5&width=443&lines=Hey+there!+I'm+Preetham;Welcome+to+my+Tech+Space!" alt="Typing SVG" />
-<p align="left">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&duration=2000&pause=1000&color=ADBAC7&width=155&lines=Click+Here+↘;For+My+Links+↘" alt="Typing SVG" style="vertical-align: middle;" />
-  <a href="https://preethm19.github.io/">
-    <img src="https://preethm19.github.io/logo.png" width="30" height="30" alt="My Links" style="vertical-align: middle;" />
-  </a>
-  <a href="https://preethm19.github.io/" style="vertical-align: middle; margin-left: 5px; color: inherit; text-decoration: none;">
-  </a>
-</p>
+<table align="center">
+  <tr>
+    <!-- LEFT: TEXT -->
+    <td>
+
+  <div align="center">
+        <img 
+          src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&duration=2000&pause=1000&color=539BF5&width=443&lines=Hey+there!+I'm+Preetham;Welcome+to+my+Tech+Space!" 
+          alt="Typing SVG"
+        />
+
+  <p>
+      <img 
+            src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&duration=2000&pause=1000&color=ADBAC7&width=155&lines=Click+Here+↘;For+My+Links+↘" 
+            alt="Typing SVG" 
+            style="vertical-align: middle;" 
+          />
+          <a href="https://preethm19.github.io/">
+            <img 
+              src="https://preethm19.github.io/logo.png" 
+              width="30" height="30" 
+              alt="My Links" 
+              style="vertical-align: middle;" 
+            />
+          </a>
+        </p>
+      </div>
+   </td>
+
+  <!-- RIGHT: GIF -->
+   <td>
+      <img 
+        src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" 
+        width="220"
+      />
+    </td>
+  </tr>
+</table>
+
 
 
 <img src="https://user-images.githubusercontent.com/74038190/212744287-14f66c13-5458-40dc-9244-8ff533fc8f4a.gif" width="1100">
