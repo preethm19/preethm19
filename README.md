@@ -9,7 +9,7 @@
     <!-- LEFT: TEXT -->
     <td>
 
-  <div align="center">
+  <div align="left">
         <img 
           src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&duration=2000&pause=1000&color=539BF5&width=443&lines=Hey+there!+I'm+Preetham;Welcome+to+my+Tech+Space!" 
           alt="Typing SVG"
