@@ -13,25 +13,18 @@
   <a href="https://preethm19.github.io/" style="vertical-align: middle; margin-left: 5px; color: inherit; text-decoration: none;">
   </a>
 </p>
+<img src="https://user-images.githubusercontent.com/74038190/212744287-14f66c13-5458-40dc-9244-8ff533fc8f4a.gif" width="1100">
+<br><br>
 
 
-
-![](https://github-readme-stats.vercel.app/api?username=preethm19&theme=github_dark_dimmed&hide_border=false&include_all_commits=false&count_private=true)<br/>
----
 ![](https://nirzak-streak-stats.vercel.app/?user=preethm19&theme=github_dark_dimmed&hide_border=false)<br/>
 ---
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=preethm19&theme=github_dark_dimmed&hide_border=false&include_all_commits=false&count_private=true&layout=compact)
----
-
 ![](https://github-contributor-stats.vercel.app/api?username=preethm19&limit=5&theme=github_dark_dimmed&combine_all_yearly_contributions=true)
 ---
-![](https://github-profile-trophy.vercel.app/?username=preethm19&theme=nord&no-frame=false&no-bg=true&margin-w=4)
----
-[![](https://visitcount.itsvg.in/api?id=preethm19&icon=0&color=6)](https://visitcount.itsvg.in)
 
----
-<img src="https://raw.githubusercontent.com/preethm19/preethm19/output/snake.svg" alt="Snake animation" />
----
+
+<!--img src="https://raw.githubusercontent.com/preethm19/preethm19/output/snake.svg" alt="Snake animation" />
+
 
 
 
